@@ -1,0 +1,51 @@
+:root {
+    --bg-clr1: #0F172A;
+    --bg-clr2: #1E293B;
+    --btn-clr: #7477FF;
+    --text-font: "Inter";
+    --crazy-font: "Pacifico";
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+body {
+    background-color: var(--bg-clr1);
+    color: #FFFFFF;
+    display: grid;
+    font-family: "Inter";
+}
+
+main {
+    padding: 100px 50px;
+}
+
+
+/* Navbar */
+.navbar {
+    box-sizing: border-box;
+    position: fixed;
+    min-width: 100vw;
+    padding: 1rem;
+    font-family: var(--text-font);
+    display: inline-flex;
+    justify-content: space-between;
+    gap: 1rem;
+    font-size: 12px;
+}
+.navbar .name {
+    color: var(--btn-clr);
+}
+.navbar-links {
+    display: inline-flex;
+    gap: 1rem;
+}
+
+/* @media screen and (min-width: 425px) {
+    .navbar {
+        padding: 1rem 2rem;
+        font-size: 15px;
+    }
+} */

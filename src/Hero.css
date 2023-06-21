@@ -1,0 +1,31 @@
+:root {
+    --bg-clr1: #0F172A;
+    --bg-clr2: #1E293B;
+    --btn-clr: #7477FF;
+    --text-font: "Inter";
+    --crazy-font: "Pacifico";
+}
+
+.hello-section {
+    font-size: 40px;
+    font-family: "Pacifico";
+}
+.hello-section b {
+    color: var(--btn-clr);
+}
+.job {
+    margin-top: 30px;
+    color: lightgray;
+    font-family: "Chivo";
+}
+
+.hero-section a {
+    all: unset;
+}
+.projects-link {
+    margin-top: 30px;
+    padding: 10px 20px;
+    width: fit-content;
+    background-color: #7477FF;
+    border-radius: 5px;
+}
