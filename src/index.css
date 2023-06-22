@@ -19,9 +19,20 @@ body {
 }
 
 main {
-    padding: 100px 50px;
+    padding: 100px 20px;
     display: grid;
     gap: 5rem;
+}
+
+a {
+    all: unset;
+}
+.btn {
+    margin-top: 30px;
+    padding: 10px 20px;
+    width: fit-content;
+    background-color: #7477FF;
+    border-radius: 5px;
 }
 
 
@@ -30,14 +41,16 @@ main {
     box-sizing: border-box;
     position: fixed;
     min-width: 100vw;
-    padding: 1rem;
-    padding-left: 50px;
+    padding: 1rem 20px;
     font-family: var(--text-font);
     display: inline-flex;
     justify-content: space-between;
     gap: 1rem;
     font-size: 12px;
     background: rgba(15, 23, 42, 0.6);
+}
+.navbar a {
+    all: unset;
 }
 .navbar .name {
     color: var(--btn-clr);
@@ -52,11 +65,19 @@ main {
     width: 100%;
     background-color: var(--btn-clr);
 }
+.title-underline.nav {
+    position: relative;
+    top: 1rem;
+    display: none;
+}
 
 @media screen and (min-width: 425px) {
     .navbar {
         padding: 1rem 50px;
         font-size: 15px;
+    }
+    main {
+        padding: 100px 50px;
     }
 }
 
@@ -75,6 +96,10 @@ main {
     }
     .hello-section {
         font-size: 50px;
+    }
+
+    .about-text {
+        width: 500px;
     }
 }
 
@@ -106,4 +131,8 @@ main {
     .hello-section {
         font-size: 80px;
     }
+
+    /* .about-text {
+        width: 40%;
+    } */
 }

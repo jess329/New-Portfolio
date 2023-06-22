@@ -10,6 +10,11 @@
     height: 100vh;
     padding: 50px 0;
     font-family: "Poppins";
+    display: flex;
+    flex-direction: column;
+}
+.section.about > * {
+    width: fit-content;
 }
 .about-title {
     font-size: 50px;
@@ -18,8 +23,43 @@
 }
 .about-text {
     margin-top: 3rem;
-    width: 40%;
+    width: 300px;
     display: grid;
     gap: 1rem;
-    font-size: 20px;
+    font-size: 15px;
+}
+.about-text b {
+    color: var(--btn-clr);
+}
+.btn.contact {
+    margin: 20px 0;
+}
+
+/* Skills */
+.skills-title {
+    width: fit-content;
+    font-size: 50px;
+    font-weight: 700;
+}
+.skills {
+    padding: 3rem 0;
+    width: fit-content;
+    display: grid;
+    gap: 0.5rem;
+    grid-template-columns: repeat(3, auto);
+    grid-auto-columns: min-content;
+}
+.skill {
+    width: fit-content;
+    padding: 10px 20px;
+    background-color: var(--bg-clr2);
+    border-radius: 5px;
+}
+
+@media screen and (min-width: 1200px) {
+    .section.about {
+        flex-direction: row;
+        justify-content: flex-start;
+        gap: 10rem;
+    }
 }

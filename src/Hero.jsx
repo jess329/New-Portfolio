@@ -20,7 +20,7 @@ function Hero() {
         </div>
       
       <a href="#projects" >
-        <div className="projects-link">See Projects</div>
+        <div className="btn projects">See Projects</div>
       </a>
       
     </div>
