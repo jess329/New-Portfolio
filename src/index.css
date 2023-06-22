@@ -26,6 +26,7 @@ main {
 
 a {
     all: unset;
+    cursor: pointer;
 }
 .btn {
     margin-top: 30px;
@@ -51,9 +52,11 @@ a {
 }
 .navbar a {
     all: unset;
+    cursor: pointer;
 }
 .navbar .name {
     color: var(--btn-clr);
+    cursor: pointer;
 }
 .navbar-links {
     display: inline-flex;

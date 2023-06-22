@@ -7,7 +7,7 @@
 }
 
 .section.about {
-    height: 100vh;
+    /* height: 110vh; */
     padding: 50px 0;
     font-family: "Poppins";
     display: flex;
@@ -46,7 +46,7 @@
     width: fit-content;
     display: grid;
     gap: 0.5rem;
-    grid-template-columns: repeat(3, auto);
+    /* grid-template-columns: repeat(3, auto); */
     grid-auto-columns: min-content;
 }
 .skill {
@@ -58,6 +58,7 @@
 
 @media screen and (min-width: 1200px) {
     .section.about {
+        /* height: 80vh; */
         flex-direction: row;
         justify-content: flex-start;
         gap: 10rem;
