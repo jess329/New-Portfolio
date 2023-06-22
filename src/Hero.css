@@ -6,6 +6,9 @@
     --crazy-font: "Pacifico";
 }
 
+.section.hero {
+    height: calc(100vh - 153px);
+}
 .hello-section {
     font-size: 40px;
     font-family: "Pacifico";
@@ -19,7 +22,7 @@
     font-family: "Chivo";
 }
 
-.hero-section a {
+.section.hero a {
     all: unset;
 }
 .projects-link {
@@ -28,4 +31,20 @@
     width: fit-content;
     background-color: #7477FF;
     border-radius: 5px;
+}
+
+.hero-top {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+}
+.hero-img {
+    display: none;
+}
+
+@media screen and (min-width: 1200px) {
+    .hero-img {
+        display: block;
+        margin-top: 2rem;
+    }
 }

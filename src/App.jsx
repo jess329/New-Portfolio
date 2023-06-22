@@ -5,6 +5,7 @@ import viteLogo from '/vite.svg'
 import Navbar from './Navbar'
 import Hero from './Hero'
 import "./Responsive.css"
+import About from './About'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -17,6 +18,7 @@ function App() {
 
       <main>
         <Hero/>
+        <About/>
       </main>
 
       <footer>

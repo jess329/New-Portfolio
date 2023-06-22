@@ -1,0 +1,25 @@
+:root {
+    --bg-clr1: #0F172A;
+    --bg-clr2: #1E293B;
+    --btn-clr: #7477FF;
+    --text-font: "Inter";
+    --crazy-font: "Pacifico";
+}
+
+.section.about {
+    height: 100vh;
+    padding: 50px 0;
+    font-family: "Poppins";
+}
+.about-title {
+    font-size: 50px;
+    font-weight: 700;
+    width: fit-content;
+}
+.about-text {
+    margin-top: 3rem;
+    width: 40%;
+    display: grid;
+    gap: 1rem;
+    font-size: 20px;
+}
